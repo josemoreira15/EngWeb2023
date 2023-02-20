@@ -46,19 +46,17 @@ pagHTML = """
 """
 
 for c in cidades:
-    pagHTML += f"<li><a href='#{c['id']}'>{c['nome']}</a></li>"
+    pagHTML += f"                       <li><a href='#{c['id']}'>{c['nome']}</a></li>\n"
 
 
-pagHTML += """
-                    </ol>
+pagHTML += """                   </ol>
                 </td>
                 <!--Coluna do conteúdo-->
                 <td width="70%">
 """
 
 for c in cidades:
-    pagHTML += f"""
-                    <a name="{c['id']}"/>
+    pagHTML += f"""                <a name="{c['id']}"/>
                     <h3>{c['nome']}</h3>
                     <p><b>Distrito: </b>{c['distrito']}</p>
                     <p><b>População: </b>{c['população']}</p>
@@ -67,13 +65,11 @@ for c in cidades:
     if c['id'] in map_ligacoes.keys():
         dest = map_ligacoes.get(c['id'])
         
-        pagHTML += """
-                    <h4>Ligações: </h4>
-                        <ul>
-        """
+        pagHTML += """    <h4>Ligações: </h4>
+                        <ul>"""
 
         for item in dest.items():
-            pagHTML+= f"""                      <li><a href='#{item[0]}'>{map_aux.get(item[0])}</a>: {item[1]}</li>\n"""
+            pagHTML+= f"""\n                            <li><a href='#{item[0]}'>{map_aux.get(item[0])}</a>: {item[1]}</li>"""
 
     pagHTML += f"""
                         </ul>
