@@ -95,16 +95,3 @@ pagHTML += """
 """
 
 print(pagHTML)
-
-
-# inserir h4, por exemplo, dentro de cada cidade, inserindo nomeCidade : distancia
-# exemplo
-# Aveiro
-# população
-# descrição
-# Ligação :
-#    nomeCidade: distância
-
-# nomeCidade -> link para a cidade
-
-# exemplo: criar dicionário que associe o id da cidade ao nome
