@@ -1,3 +1,7 @@
+// template.js
+// tpc4EngWeb2023: 2023-03-09
+// by jmm
+
 exports.mainPage = function(data, d){
     var pagHTML = `
     <!DOCTYPE html>
