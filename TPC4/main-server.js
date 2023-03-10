@@ -39,7 +39,7 @@ var mainServer = http.createServer(function (req, res) {
             case "GET": 
                 // GET /users
                 if((req.url == "/")){
-                    axios.get("http://localhost:3000/data")
+                    axios.get("http://localhost:3000/data?_sort=name")
                         .then(response => {
                             var data = response.data
 
