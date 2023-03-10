@@ -9,7 +9,7 @@ var fs = require('fs')
 
 function staticResource(request){
     return /\/w3.css$/.test(request.url) || 
-            /\/favicon.png$/.test(request.url) ||
+            /\/taskicon.png$/.test(request.url) ||
             /\/student.png$/.test(request.url)
 }
 

@@ -8,6 +8,7 @@ exports.mainPage = function(data, d){
     <html>
         <head>
             <meta charset="UTF-8"/>
+            <link rel="icon" href="taskicon.png"/>
             <link rel="stylesheet" href="w3.css"/>
             <title>2doListApp</title>
         </head>
@@ -92,6 +93,7 @@ exports.infoPage = function(text, d){
     <html>
         <head>
             <meta charset="UTF-8"/>
+            <link rel="icon" href="taskicon.png"/>
             <link rel="stylesheet" href="w3.css"/>
             <title>Information</title>
         </head>
