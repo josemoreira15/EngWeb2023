@@ -223,34 +223,6 @@
     {
       "id": "A95323",
       "name": "Henrique Ribeiro Fernandes"
-    },
-    {
-      "id": "1",
-      "task": "ja sabes",
-      "name": "Ana Rita Moreira Vaz",
-      "date": "2023-03-24",
-      "status": "todo"
-    },
-    {
-      "id": "2",
-      "task": "ya mano",
-      "name": "Bernard Ambrosio Georges",
-      "date": "2023-03-04",
-      "status": "todo"
-    },
-    {
-      "id": "3",
-      "task": "ir a praia",
-      "name": "Ana Rita Moreira Vaz",
-      "date": "2023-03-23",
-      "status": "todo"
-    },
-    {
-      "id": "4",
-      "task": "ahahah",
-      "name": "Bernard Ambrosio Georges",
-      "date": "2023-03-31",
-      "status": "todo"
     }
   ]
 }
